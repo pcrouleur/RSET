@@ -67,16 +67,20 @@ export rubrik_cdm_node_ip=10.8.48.201
 export rubrik_cdm_token=<your api token>
 ```
 On Windows: <br>
-(cmd)
-```
-setx rubrik_cdm_node_ip "192.168.0.100"
-setx rubrik_cdm_token "<your api token>"
-```
-(powershell window)
-```
-$env:rubrik_cdm_node_ip="10.8.48.201"
-$env:rubrik_cdm_token="<your api token>"
-```
+Set the environment variables with the System Control Panel
+
+To make a persistent change to an environment variable on Windows using the System Control Panel:
+
+1. Open the System Control Panel.
+2. Select System.
+3. Select Advanced System Settings.
+4. Go to the Advanced tab.
+5. Select Environment Variables....
+6. Make your changes.
+
+![Screen Shot 2022-07-08 at 3 08 45 PM](https://user-images.githubusercontent.com/26155271/178071336-5cba0315-00f1-4747-9ee9-ac9733c9ff0a.png)
+![Screen Shot 2022-07-08 at 3 09 23 PM](https://user-images.githubusercontent.com/26155271/178071348-799e443b-c7f9-46d0-8664-d26c5ce9eab2.png)
+
 # Lab Exercises Using the Python REPL
 ## Start the REPL
 
